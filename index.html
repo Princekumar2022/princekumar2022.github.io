@@ -5,75 +5,107 @@
   <title>Prince Kumar | Backend Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Prince Kumar – Backend Developer (Node.js, AWS, MongoDB)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="topnav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a class="logo" href="#">Prince Kumar</a>
+      <div class="nav-actions">
+        <button id="themeToggle" type="button" class="icon-btn" aria-pressed="false" aria-label="Toggle theme">🌙</button>
+        <div class="dropdown">
+          <button id="resumeToggle" class="btn" aria-haspopup="menu" aria-expanded="false" aria-controls="resumeMenu">Resume ▾</button>
+          <div id="resumeMenu" class="dropdown-menu" role="menu" hidden>
+            <a role="menuitem" class="dropdown-item" href="Prince_Kumar_Resume.pdf" download>Download PDF</a>
+            <a role="menuitem" class="dropdown-item" href="Prince_Kumar_Resume.docx" download>Download Word (.docx)</a>
+          </div>
+        </div>
+        <!-- visible shortcuts for quick download (shown on wider screens) -->
+        <a class="btn resume-inline" href="Prince_Kumar_Resume.pdf" download title="Download PDF">PDF</a>
+        <a class="btn resume-inline" href="Prince_Kumar_Resume.docx" download title="Download Word">Word</a>
+        <button id="downloadBtn" type="button" aria-label="Generate PDF of page" class="btn primary">Download Page as PDF</button>
+      </div>
+    </div>
+  </nav>
 
-<header>
-  <h1>Prince Kumar</h1>
-  <p>Backend Developer | Node.js | AWS</p>
-</header>
+  <main id="main" class="container">
+    <header class="hero">
+      <div>
+        <h1>Prince Kumar</h1>
+        <p class="subtitle">Backend Developer • Node.js • AWS • MongoDB</p>
+        <p class="lead">I build scalable, secure backend systems, REST APIs and cloud-native services. Let's ship reliable software.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="meta">2.6+ yrs</div>
+        <div class="meta small">Backend Engineer</div>
+      </div>
+    </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>
-    Backend Developer with 2.6+ years of experience building scalable,
-    secure, and production-ready backend systems using Node.js, Express.js,
-    MongoDB, Redis, and AWS. Experienced in REST APIs, authentication,
-    real-time systems, and cloud deployments.
-  </p>
-</section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Backend Developer with 2.6+ years of hands-on professional experience designing, developing, and maintaining scalable, secure, and high-performance backend systems. Strong expertise in Node.js, Express.js, MongoDB, Redis, and AWS (EC2, Lambda, S3, Amplify). Experienced in building RESTful APIs, authentication & authorization systems, real-time applications, database schema design, query optimization, payment gateway integrations, and deploying production-ready applications on cloud infrastructure.
+      </p>
+    </section>
 
-<section>
-  <h2>Skills</h2>
-  <ul>
-    <li>Node.js, Express.js, REST APIs</li>
-    <li>MongoDB, Redis</li>
-    <li>AWS (EC2, Lambda, S3, Amplify)</li>
-    <li>JWT, Bcrypt, Role-based Access Control</li>
-    <li>Socket.IO, WebSockets</li>
-    <li>Git, GitHub, Postman</li>
-  </ul>
-</section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div id="experienceList"></div>
+    </section>
 
-<section>
-  <h2>Live Projects</h2>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div id="skillsList" class="chips" aria-live="polite"></div>
+    </section>
 
-  <p><b>Digital Benchers</b> – Ed-Tech Platform  
-    <br>🔗 <a href="https://digitalbenchers.com" target="_blank">Website</a> |
-    <a href="https://play.google.com/store/apps/details?id=com.digitalbencher.benchers" target="_blank">Android App</a>
-  </p>
+    <section id="projects">
+      <h2>Live Projects</h2>
+      <div id="projectsGrid" class="grid"></div>
+    </section>
 
-  <p><b>Onit App</b> – Service Booking Platform  
-    <br>🔗 <a href="https://www.onit.services" target="_blank">Website</a> |
-    <a href="https://play.google.com/store/apps/details?id=com.onit.partners" target="_blank">Partner App</a> |
-    <a href="https://play.google.com/store/apps/details?id=com.onit.consumer" target="_blank">Consumer App</a>
-  </p>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Download the formal resume PDF or generate a clean PDF of this page below.</p>
+      <div class="inline-actions">
+        <a class="btn" href="Prince_Kumar_Resume.pdf" download>Download PDF</a>
+        <a class="btn" href="Prince_Kumar_Resume.docx" download>Download Word</a>
+        <button id="downloadBtnInline" type="button" aria-label="Generate PDF of page" class="btn primary">Generate PDF of Page</button>
+      </div>
+    </section>
 
-  <p><b>Book My Saarthi</b> – Logistics Platform  
-    <br>🔗
-    <a href="https://play.google.com/store/apps/details?id=com.bookmysaarth.bookmysaarthi" target="_blank">User App</a> |
-    <a href="https://play.google.com/store/apps/details?id=com.saarthidriver.saarthi" target="_blank">Driver App</a>
-  </p>
+    <section id="education">
+      <h2>Education</h2>
+      <div id="educationList"></div>
+    </section>
 
-  <p><b>Dually, YourTym, Atlo</b> – Social & Service Apps</p>
-</section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:pk279183@gmail.com">pk279183@gmail.com</a></li>
+        <li>Phone: <a href="tel:+917004409931">+91 70044 09931</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/prince-kumar82822b12a/" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/Princekumar2022" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Resume</h2>
-  <a class="btn" href="Prince_Kumar_Backend_AWS_ATS.pdf" download>
-    Download Resume (PDF)
-  </a>
-</section>
+    <!-- toast notifications -->
+    <div id="toast" class="toast" aria-live="polite" hidden></div>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: pk279183@gmail.com</p>
-  <p>
-    <a href="https://www.linkedin.com/in/prince-kumar82822b12a/" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/Princekumar2022" target="_blank">GitHub</a>
-  </p>
-</section>
+    <footer class="foot">© <span id="year"></span> Prince Kumar — Built with ❤️</footer>
+  </main>
 
+  <!-- html2pdf CDN for client-side PDF generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIP6d3c5Y9u+gP2zG1h2pQqk0K4Zw2lYx6v1k1b2hQd+q+2Yk2tkZ3zQ5cQH2qk4Z5p0K7sCqk1ZcH+8y6Gw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
 </body>
 </html>

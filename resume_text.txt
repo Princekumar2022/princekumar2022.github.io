@@ -1,0 +1,63 @@
+PRINCE KUMAR
+Backend Developer | Node.js | AWS
+Noida, India | +91 7004409931 | pk279183@gmail.com
+LinkedIn | GitHub
+Professional Summary
+Backend Developer with 2.6+ years of hands-on professional experience designing, developing, and maintaining scalable, secure, and high-performance backend systems. Strong expertise in Node.js, Express.js, MongoDB, Redis, and AWS (EC2, Lambda, S3, Amplify), with proven experience in building RESTful APIs, authentication and authorization systems, and real-time applications. Experienced in database schema design, query optimization, payment gateway integrations, and deploying production-ready applications on cloud infrastructure. Have contributed to multiple live consumer, partner, and staff applications across domains including ed-tech, service booking, logistics, and social platforms, with a strong focus on performance, security, and scalability.
+Technical Skills
+Backend &amp; APIs: Node.js, Express.js, REST APIs, JavaScript (ES6+)
+Databases &amp; Caching: MongoDB, Redis
+Cloud &amp; DevOps: AWS (EC2, Lambda, S3, Amplify)
+Authentication &amp; Security: JWT, Bcrypt, Role-based Access Control
+Real-Time Systems: Socket.IO, WebSockets
+Tools &amp; Utilities: Git, GitHub, Postman
+Frontend (Basic): HTML, CSS
+Payment Gateway: Stripe, Razor Pay 
+Professional Experience
+Node.js Developer | Flyweis Technology — Noida (July 2023 – Present)
+Designed and developed scalable backend APIs using Node.js and Express.js for production systems
+Implemented JWT-based authentication and role-based authorization
+Optimized MongoDB schemas, indexing, and queries for performance
+Integrated real-time features using Socket.IO
+Worked on payment gateway integrations
+Deployed and managed applications on AWS (EC2, Lambda, S3, Amplify)
+Backend Developer Intern | Onit Services — Noida (Mar 2023 – Jul 2023)
+Developed backend APIs for consumer and partner applications
+Worked on booking workflows, authentication, and partner management
+Assisted in debugging and improving API reliability
+Key Live Projects
+Digital Benchers (Live)
+Educational platform for courses, videos, tests, and notes
+Tech: Node.js, Express.js, MongoDB, AWS
+Website: https://digitalbenchers.com
+Android App (Play Store)
+Onit App (Live)
+Service booking platform with separate consumer and partner applications
+Implemented backend APIs for bookings, authentication, and partner workflows
+Tech: Node.js, MongoDB, AWS
+Website: https://www.onit.services
+Partner App (Play Store)
+Consumer App (Play Store)
+Dually (Live)
+Social media application with authentication and media handling
+Tech: Node.js, MongoDB, AWS
+Android App (Play Store)
+Book My Saarthi (Live)
+Logistics and service booking platform with user and driver apps
+Tech: Node.js, Express.js, MongoDB, AWS
+User App (Play Store)
+Driver App (Play Store)
+YourTym (Live)
+Appointment and service booking platform with user and partner apps
+Tech: Node.js, MongoDB, AWS
+User App (Play Store)
+Partner App (Play Store)
+Atlo (Live)
+Service management platform with staff and user apps
+Tech: Node.js, MongoDB, AWS
+Staff App (Play Store)
+User App (Play Store)
+Education
+Bachelor of Computer Applications (BCA)
+Maulana Mazharul Haque Arabic &amp; Persian University
+2017 – 2021 | GPA: 75.67%
